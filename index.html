@@ -17,9 +17,7 @@
             <div class="envelope">
                 <div class="letter">
                     <div class="text">
-                        <audio controls loop>
-                             <source src="./sound/sound.mp3">
-                        </audio>
+                        
                         <strong>Thân gửi </strong>.</strong>
                         <p>
                             Tuấn chúc các bạn sống dai như đĩa.
@@ -34,6 +32,9 @@
         const envelope = document.querySelector('.envelope-wrapper');
         envelope.addEventListener('click', () => {
             envelope.classList.toggle('flap');
+            <audio autoplay loop>
+                             <source src="./sound/sound.mp3">
+                        </audio>
         });
     </script>
 
